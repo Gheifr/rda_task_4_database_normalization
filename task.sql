@@ -49,10 +49,10 @@ INSERT INTO Products (ProductName)
 	VALUES ('AwersomeProduct');
 
 -- Warehouses
-INSERT into Warehouses (WarehouseName, CountryID,WarehouseAddress)
-	values ('Warehouse-1', 1,'City-1, Street-1');
-INSERT into Warehouses (WarehouseName, CountryID,WarehouseAddress)
-	values ('Warehouse-2',  2,'City-2, Street-2');
+INSERT into Warehouses (WarehouseName,WarehouseAddress,CountryID)
+	values ('Warehouse-1', 'City-1, Street-1',1);
+INSERT into Warehouses (WarehouseName,WarehouseAddress,CountryID)
+	values ('Warehouse-2','City-2, Street-2',  2);
     
 -- Product inventory
 INSERT INTO ProductInventory (ProductID,WarehouseAmount,WarehouseID)
